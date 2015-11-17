@@ -1,2 +1,2 @@
-# LXPhotobswer
+# LXPhotobroswer
 A convenient photo browser
