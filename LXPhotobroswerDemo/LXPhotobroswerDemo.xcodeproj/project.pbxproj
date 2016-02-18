@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10855306E847A8A526B5DD22 /* libPods-LXPhotobroswerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FC821C648EDCD8E0668760 /* libPods-LXPhotobroswerDemo.a */; };
+		C066EB231C058E17002390E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C066EB221C058E17002390E6 /* main.m */; };
+		C066EB261C058E17002390E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C066EB251C058E17002390E6 /* AppDelegate.m */; };
+		C066EB291C058E17002390E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C066EB281C058E17002390E6 /* ViewController.m */; };
+		C066EB2C1C058E17002390E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C066EB2A1C058E17002390E6 /* Main.storyboard */; };
+		C066EB2E1C058E17002390E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C066EB2D1C058E17002390E6 /* Assets.xcassets */; };
+		C066EB311C058E17002390E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C066EB2F1C058E17002390E6 /* LaunchScreen.storyboard */; };
+		C06826F61C75BB410090054F /* LXFullScreenImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C06826F51C75BB410090054F /* LXFullScreenImageBrowser.m */; };
+		C06827051C75CBEF0090054F /* LXCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C06827001C75CBEF0090054F /* LXCircularProgressView.m */; };
+		C06827061C75CBEF0090054F /* LXImageLoopBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C06827021C75CBEF0090054F /* LXImageLoopBrowser.m */; };
+		C06827071C75CBEF0090054F /* LXZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C06827041C75CBEF0090054F /* LXZoomingScrollView.m */; };
+		C068270A1C75CF640090054F /* TestSigleton.m in Sources */ = {isa = PBXBuildFile; fileRef = C06827091C75CF640090054F /* TestSigleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E60277BE5C4B35F8CEA40FB /* Pods-LXPhotobroswerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPhotobroswerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXPhotobroswerDemo/Pods-LXPhotobroswerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C066EB1E1C058E17002390E6 /* LXPhotobroswerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXPhotobroswerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C066EB221C058E17002390E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C066EB241C058E17002390E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C066EB251C058E17002390E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C066EB271C058E17002390E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C066EB281C058E17002390E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C066EB2B1C058E17002390E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C066EB2D1C058E17002390E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C066EB301C058E17002390E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C066EB321C058E17002390E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06826F41C75BB410090054F /* LXFullScreenImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFullScreenImageBrowser.h; sourceTree = "<group>"; };
+		C06826F51C75BB410090054F /* LXFullScreenImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFullScreenImageBrowser.m; sourceTree = "<group>"; };
+		C06826FF1C75CBEF0090054F /* LXCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCircularProgressView.h; sourceTree = "<group>"; };
+		C06827001C75CBEF0090054F /* LXCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCircularProgressView.m; sourceTree = "<group>"; };
+		C06827011C75CBEF0090054F /* LXImageLoopBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXImageLoopBrowser.h; sourceTree = "<group>"; };
+		C06827021C75CBEF0090054F /* LXImageLoopBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXImageLoopBrowser.m; sourceTree = "<group>"; };
+		C06827031C75CBEF0090054F /* LXZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXZoomingScrollView.h; sourceTree = "<group>"; };
+		C06827041C75CBEF0090054F /* LXZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXZoomingScrollView.m; sourceTree = "<group>"; };
+		C06827081C75CF640090054F /* TestSigleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSigleton.h; sourceTree = "<group>"; };
+		C06827091C75CF640090054F /* TestSigleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSigleton.m; sourceTree = "<group>"; };
+		D3435F9F2A03086C6FC0BFA3 /* Pods-LXPhotobroswerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPhotobroswerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXPhotobroswerDemo/Pods-LXPhotobroswerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F5FC821C648EDCD8E0668760 /* libPods-LXPhotobroswerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXPhotobroswerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C066EB1B1C058E17002390E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10855306E847A8A526B5DD22 /* libPods-LXPhotobroswerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35DAA284D1909F5313305DA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5FC821C648EDCD8E0668760 /* libPods-LXPhotobroswerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A23BC10F7407DD7388D4C2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E60277BE5C4B35F8CEA40FB /* Pods-LXPhotobroswerDemo.debug.xcconfig */,
+				D3435F9F2A03086C6FC0BFA3 /* Pods-LXPhotobroswerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C066EB151C058E17002390E6 = {
+			isa = PBXGroup;
+			children = (
+				C066EB201C058E17002390E6 /* LXPhotobroswerDemo */,
+				C066EB1F1C058E17002390E6 /* Products */,
+				4A23BC10F7407DD7388D4C2F /* Pods */,
+				35DAA284D1909F5313305DA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C066EB1F1C058E17002390E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C066EB1E1C058E17002390E6 /* LXPhotobroswerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C066EB201C058E17002390E6 /* LXPhotobroswerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C066EB381C058E7D002390E6 /* LXImageLoopBrowser */,
+				C066EB241C058E17002390E6 /* AppDelegate.h */,
+				C066EB251C058E17002390E6 /* AppDelegate.m */,
+				C066EB271C058E17002390E6 /* ViewController.h */,
+				C066EB281C058E17002390E6 /* ViewController.m */,
+				C06827081C75CF640090054F /* TestSigleton.h */,
+				C06827091C75CF640090054F /* TestSigleton.m */,
+				C066EB2A1C058E17002390E6 /* Main.storyboard */,
+				C066EB2D1C058E17002390E6 /* Assets.xcassets */,
+				C066EB2F1C058E17002390E6 /* LaunchScreen.storyboard */,
+				C066EB321C058E17002390E6 /* Info.plist */,
+				C066EB211C058E17002390E6 /* Supporting Files */,
+			);
+			path = LXPhotobroswerDemo;
+			sourceTree = "<group>";
+		};
+		C066EB211C058E17002390E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C066EB221C058E17002390E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C066EB381C058E7D002390E6 /* LXImageLoopBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				C06826F41C75BB410090054F /* LXFullScreenImageBrowser.h */,
+				C06826F51C75BB410090054F /* LXFullScreenImageBrowser.m */,
+				C06826FF1C75CBEF0090054F /* LXCircularProgressView.h */,
+				C06827001C75CBEF0090054F /* LXCircularProgressView.m */,
+				C06827011C75CBEF0090054F /* LXImageLoopBrowser.h */,
+				C06827021C75CBEF0090054F /* LXImageLoopBrowser.m */,
+				C06827031C75CBEF0090054F /* LXZoomingScrollView.h */,
+				C06827041C75CBEF0090054F /* LXZoomingScrollView.m */,
+			);
+			name = LXImageLoopBrowser;
+			path = ../../LXImageLoopBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C066EB1D1C058E17002390E6 /* LXPhotobroswerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C066EB351C058E17002390E6 /* Build configuration list for PBXNativeTarget "LXPhotobroswerDemo" */;
+			buildPhases = (
+				7073C8B0C1AC1E2FA2B115F6 /* Check Pods Manifest.lock */,
+				C066EB1A1C058E17002390E6 /* Sources */,
+				C066EB1B1C058E17002390E6 /* Frameworks */,
+				C066EB1C1C058E17002390E6 /* Resources */,
+				88F9932B6B0055B71C345E94 /* Embed Pods Frameworks */,
+				9ECD866D6E7A8A54465A823A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXPhotobroswerDemo;
+			productName = LXPhotobroswerDemo;
+			productReference = C066EB1E1C058E17002390E6 /* LXPhotobroswerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C066EB161C058E17002390E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "xx-li";
+				TargetAttributes = {
+					C066EB1D1C058E17002390E6 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C066EB191C058E17002390E6 /* Build configuration list for PBXProject "LXPhotobroswerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C066EB151C058E17002390E6;
+			productRefGroup = C066EB1F1C058E17002390E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C066EB1D1C058E17002390E6 /* LXPhotobroswerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C066EB1C1C058E17002390E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C066EB311C058E17002390E6 /* LaunchScreen.storyboard in Resources */,
+				C066EB2E1C058E17002390E6 /* Assets.xcassets in Resources */,
+				C066EB2C1C058E17002390E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7073C8B0C1AC1E2FA2B115F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88F9932B6B0055B71C345E94 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXPhotobroswerDemo/Pods-LXPhotobroswerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ECD866D6E7A8A54465A823A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXPhotobroswerDemo/Pods-LXPhotobroswerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C066EB1A1C058E17002390E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06827071C75CBEF0090054F /* LXZoomingScrollView.m in Sources */,
+				C066EB291C058E17002390E6 /* ViewController.m in Sources */,
+				C06827051C75CBEF0090054F /* LXCircularProgressView.m in Sources */,
+				C06827061C75CBEF0090054F /* LXImageLoopBrowser.m in Sources */,
+				C066EB261C058E17002390E6 /* AppDelegate.m in Sources */,
+				C06826F61C75BB410090054F /* LXFullScreenImageBrowser.m in Sources */,
+				C068270A1C75CF640090054F /* TestSigleton.m in Sources */,
+				C066EB231C058E17002390E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C066EB2A1C058E17002390E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C066EB2B1C058E17002390E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C066EB2F1C058E17002390E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C066EB301C058E17002390E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C066EB331C058E17002390E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C066EB341C058E17002390E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C066EB361C058E17002390E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E60277BE5C4B35F8CEA40FB /* Pods-LXPhotobroswerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXPhotobroswerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixinxing.LXPhotobroswerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C066EB371C058E17002390E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3435F9F2A03086C6FC0BFA3 /* Pods-LXPhotobroswerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXPhotobroswerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixinxing.LXPhotobroswerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C066EB191C058E17002390E6 /* Build configuration list for PBXProject "LXPhotobroswerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C066EB331C058E17002390E6 /* Debug */,
+				C066EB341C058E17002390E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C066EB351C058E17002390E6 /* Build configuration list for PBXNativeTarget "LXPhotobroswerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C066EB361C058E17002390E6 /* Debug */,
+				C066EB371C058E17002390E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C066EB161C058E17002390E6 /* Project object */;
+}
