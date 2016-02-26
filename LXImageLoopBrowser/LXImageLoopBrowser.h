@@ -16,7 +16,6 @@
 @optional
 - (void) imageLoopBrowser:(LXImageLoopBrowser *)imageLoopBrowser didOnceTapAtIndex:(NSUInteger)index;
 - (void) imageLoopBrowser:(LXImageLoopBrowser *)imageLoopBrowser didMoveAtIndex:(NSUInteger)toIndex moveFromIndex:(NSUInteger)fromIndex;
-
 - (UIImage *)imageLoopBrowser:(LXImageLoopBrowser *)imageLoopBrowser placeholderImageForIndex:(NSInteger)index;
 
 @end
@@ -27,30 +26,34 @@
 
 @property (nonatomic, strong, readonly) UIPageControl * pageControl;
 
-///所有的图片
+/*! 所有的图片 */
 @property (nonatomic, copy) NSArray * imageUrls;
 
-///当前显示图片下标
+/*! 当前显示图片下标  */
 @property (assign, nonatomic) NSInteger currentIndex;
 
-///加载失败显示图片
+/*! 加载失败显示图片 */
 @property (nonatomic, strong) UIImage * errorImage;
 
-///当前图片
+/*! 当前图片  */
 @property (nonatomic, strong, readonly) UIImage * currentImage;
 
-//当前用于显示图片的视图
+/*! 当前用于显示图片的视图 */
 @property (strong, nonatomic,readonly) LXZoomingScrollView * currentPhotoView;
 
-/// 能否双击方大缩小
+/*! 能否双击方大缩小 */
 @property (nonatomic, assign) BOOL zoomEnabled;
 
-///图片显示模式 默认是UIViewContentModeScaleAspectFit
+/**
+ 图片显示模式
+ 默认是UIViewContentModeScaleAspectFit
+ */
 @property (nonatomic) UIViewContentMode imageContentMode;
 
+/*! 代理 */
 @property (weak, nonatomic) id<LXImageLoopBrowserDelegate> delegate;
 
-///从缓存中获取图片
+/*! 从缓存中获取图片  */
 - (UIImage *) getImageAtIndex:(NSInteger)index;
 
 @end

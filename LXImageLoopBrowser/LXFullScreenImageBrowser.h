@@ -14,6 +14,8 @@
 
 @required
 - (CGRect)imageLoopBrowser:(LXFullScreenImageBrowser *)imageLoopBrowser startRectForIndex:(NSInteger)index;
+- (UIView *)imageLoopBrowser:(LXFullScreenImageBrowser *)imageLoopBrowser originViewForIndex:(NSInteger)index;
+
 
 @end
 

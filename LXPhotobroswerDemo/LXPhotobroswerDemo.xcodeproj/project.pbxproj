@@ -18,7 +18,6 @@
 		C06827051C75CBEF0090054F /* LXCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C06827001C75CBEF0090054F /* LXCircularProgressView.m */; };
 		C06827061C75CBEF0090054F /* LXImageLoopBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C06827021C75CBEF0090054F /* LXImageLoopBrowser.m */; };
 		C06827071C75CBEF0090054F /* LXZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C06827041C75CBEF0090054F /* LXZoomingScrollView.m */; };
-		C068270A1C75CF640090054F /* TestSigleton.m in Sources */ = {isa = PBXBuildFile; fileRef = C06827091C75CF640090054F /* TestSigleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +40,6 @@
 		C06827021C75CBEF0090054F /* LXImageLoopBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXImageLoopBrowser.m; sourceTree = "<group>"; };
 		C06827031C75CBEF0090054F /* LXZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXZoomingScrollView.h; sourceTree = "<group>"; };
 		C06827041C75CBEF0090054F /* LXZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXZoomingScrollView.m; sourceTree = "<group>"; };
-		C06827081C75CF640090054F /* TestSigleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSigleton.h; sourceTree = "<group>"; };
-		C06827091C75CF640090054F /* TestSigleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSigleton.m; sourceTree = "<group>"; };
 		D3435F9F2A03086C6FC0BFA3 /* Pods-LXPhotobroswerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPhotobroswerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXPhotobroswerDemo/Pods-LXPhotobroswerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F5FC821C648EDCD8E0668760 /* libPods-LXPhotobroswerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXPhotobroswerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,8 +99,6 @@
 				C066EB251C058E17002390E6 /* AppDelegate.m */,
 				C066EB271C058E17002390E6 /* ViewController.h */,
 				C066EB281C058E17002390E6 /* ViewController.m */,
-				C06827081C75CF640090054F /* TestSigleton.h */,
-				C06827091C75CF640090054F /* TestSigleton.m */,
 				C066EB2A1C058E17002390E6 /* Main.storyboard */,
 				C066EB2D1C058E17002390E6 /* Assets.xcassets */,
 				C066EB2F1C058E17002390E6 /* LaunchScreen.storyboard */,
@@ -264,7 +259,6 @@
 				C06827061C75CBEF0090054F /* LXImageLoopBrowser.m in Sources */,
 				C066EB261C058E17002390E6 /* AppDelegate.m in Sources */,
 				C06826F61C75BB410090054F /* LXFullScreenImageBrowser.m in Sources */,
-				C068270A1C75CF640090054F /* TestSigleton.m in Sources */,
 				C066EB231C058E17002390E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
